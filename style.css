@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    font-family: 'Otomanopee One', sans-serif
+}
+h1{
+    font-size: 50px;
+}
+.orange-color{
+    color: orange;
+}
+.flexiable-area{
+    display: flex;
+    border-left: 0px;
+   
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 20px;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+   margin-left: 0%;
+}
+.link-button{
+ text-decoration: none;
+ background-image: linear-gradient(hsl(39, 87%, 55%), hsl(39, 94%, 51%));
+ padding: 10px;
+ border-radius: 10px;
+ color:black;
+}
+.dream-area{
+    margin-top: 150px;
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-right: no;
+}
+.experience{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: 100px;
+}
+.experience-area{
+   box-shadow: 10px 10px 40px gray;
+   width: 40%;
+   margin-left: 5%;
+   margin-right: 5%;
+   padding: 50px;
+}
+#web-developer-area{
+   border-left: 10px solid;
+   border-image: linear-gradient(hsl(39, 87%, 55%), hsl(39, 81%, 40%));
+   border-image-slice: 1;
+}
+#digital-marketing-area{
+    border-left: 10px solid;
+    border-image: linear-gradient(skyblue, darkblue);
+    border-image-slice: 1;
+}
+footer p{
+  text-align: center;
+  margin-top: 100px;
+}
